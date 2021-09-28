@@ -56,9 +56,6 @@ div, img {
 
 .header_subtitle {
   width: 388px;
-  display: flex;
-  flex-flow: column wrap;
-  align-items: flex-end;
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -70,14 +67,10 @@ div, img {
   height: 100%;
   font-size: 18px;
   font-weight: normal;
-  display:flex;
 }
 
-
-
 .header__link {
-  display:flex;
-  justify-content: flex-start;
+
   text-decoration: none;
 }
 
@@ -227,6 +220,7 @@ div, img {
   font-weight: normal;
   font-size: 24px;
   line-height: 34px;
+  margin: 0;
 }
 
 .table {
@@ -477,7 +471,7 @@ div, img {
 
 .footer__link_social {
   display: flex;
-  justify-content: baseline;
+  align-items: center;
 }
 
 .footer__column-links {
@@ -500,6 +494,8 @@ div, img {
   height: 100%;
   display:flex;
   flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   margin-top: 20px;
   margin-bottom: 16px;
   font-weight: normal;
