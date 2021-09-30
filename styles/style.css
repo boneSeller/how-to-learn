@@ -19,6 +19,7 @@
   align-items: center;
   position: relative;
   background-color: #f2f2f2;
+  color: #000000;
   /* выше установили ограничения для секции */
 }
 
@@ -59,12 +60,7 @@
 
 .header__link {
   text-decoration: none;
-}
-
-.link {
-  display:flex;
-  justify-content: flex-start;
-  text-decoration: none;
+  color: #2f80ed;
 }
 
 .header__main_illustration  {
@@ -100,6 +96,7 @@
   display: flex;
   justify-content: center;
   margin: 100px 0 100px 0;
+  color: #000000;
 }
 
 .two_columns {
@@ -225,28 +222,16 @@
 /* Секция 4 */
 
 .feynman {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 890px;
+  height: 890px;
   position: relative;
   display: flex;
   justify-content: center;
   background-color: #f2f2f2;
 }
 
-.feynman__title {
-  width: 648px;
-  height: 250px;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  top: 100px;
-  z-index: 3;
-}
 
 .feynman__title {
   width: 648px;
-  height: 250px;
   display: flex;
   align-items: center;
   position: absolute;
@@ -283,6 +268,7 @@
   line-height: 51px;
   text-align: center;
   text-decoration: none;
+  color :#2f80ed;
 }
 
 .feyman__illustration {
