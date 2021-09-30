@@ -23,13 +23,15 @@
   /* выше установили ограничения для секции */
 }
 
-.header__logo_place_header {
+.logo {
   width: 183px;
   height: 32px;
-  display: flex;
-  position:absolute;
+}
+
+.logo_place_header {
   background-image: url("../images/logo_place_header.svg");
   background-repeat: no-repeat;
+  position:absolute;
   top: 30px;
   left: 64px;
   z-index: 3;
@@ -137,7 +139,7 @@
   margin: 0;
 }
 
-.p_center {
+.two_columns__paragraph_center {
   margin: 30px 0 30px 0;
 }
 
@@ -214,6 +216,7 @@
   padding: 0;
 }
 
+
 .table__text_sub {
   margin: 0;
   padding: 0;
@@ -289,7 +292,7 @@
 /* и элемента с модификатором вида ключ-значение */
 
 .kaufman {
-  min-height: 650px;
+  height: 800px;
   display:flex;
   flex-flow: column;
   align-items: center;
@@ -303,7 +306,6 @@
 
 .section-title__theme_dark {
   width: 60%;
-  height: 100px;
   text-align: center;
   margin: 100px 0 0 0;
 }
@@ -339,8 +341,11 @@
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  margin: 80px 0 0 0;
+}
+
+.table__text_theme_dark {
+  margin: 20px 0 0 0;
 }
 
 
@@ -379,10 +384,8 @@
   flex-flow: column;
 }
 
-.footer__logo_place_footer{
-  width: 183px;
-  height: 32px;
-  display: flex;
+
+.logo_place_footer {
   background-image: url("../images/logo_place_footer.svg");
   background-repeat: no-repeat;
 }
