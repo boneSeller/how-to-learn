@@ -20,6 +20,8 @@
   position: relative;
   background-color: #f2f2f2;
   color: #000000;
+  margin: 0;
+  padding: 0;
   /* выше установили ограничения для секции */
 }
 
@@ -97,7 +99,8 @@
 .description {
   display: flex;
   justify-content: center;
-  margin: 100px 0 100px 0;
+  margin: 100px 0 0 0;
+  padding: 0;
   color: #000000;
 }
 
@@ -106,6 +109,8 @@
   display: flex;
   flex-flow: row;
   justify-content: space-between;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -135,9 +140,10 @@
   margin: 0;
 }
 
-.two-columns__paragraph_center {
+.two-columns__paragraph:nth-child(2) {
   margin: 30px 0 30px 0;
 }
+
 
 .two-columns__span-accent {
   font-size: 24px;
@@ -154,8 +160,8 @@
   position: relative;
   flex-flow: column;
   align-items: center;
-  margin: 0 0 100px 0;
-  padding: 0;
+  margin: 0 0 0 0;
+  padding: 0 0 100px 0;
 }
 
 
@@ -210,7 +216,7 @@
 }
 
 
-.table__text_sub {
+.table__text_sub:nth-child(3) {
   margin: 0;
   padding: 0;
 }
@@ -225,6 +231,8 @@
   align-items: center;
   text-align: center;
   background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -240,7 +248,7 @@
 
 .feynman__subtitle {
   width: 400px;
-  margin-top: 70px;
+  margin: 70px 0 0 0;
   z-index: 3;
   line-height: 51px;
   font-size: 36px;
@@ -283,30 +291,36 @@
   flex-flow: column;
   align-items: center;
   position: relative;
-  margin: 0;
-  padding: 0;
+  margin: 0 0 0 0;
+  padding: 90px 0 90px 0;
   background: #1f1f1f;
   overflow: hidden;
   color: white;
-  padding: 0 0 90px 0;
+
 }
 
-.section-title__theme_dark {
+.section-title_theme_dark {
   width: 60%;
   text-align: center;
-  margin: 100px 0 0 0;
+  margin: 0;
+  z-index: 3;
+  color: white;
 }
 
-.section-subtitle__theme_dark  {
+.section-subtitle_theme_dark  {
   width: 60%;
   text-align: center;
   margin: 20px 0 0 0;
   z-index: 3;
+  color: white;
 }
 
 .kaufman__triangle {
   width: 877px;
   height: 877px;
+  background-image: url("../images/kaufman-triangle.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
   position: absolute;
   top:0;
   right:0;
@@ -314,7 +328,7 @@
   z-index: 0;
 }
 
-.table__theme_dark {
+.table_theme_dark {
   width: 1100px;
   display: flex;
   flex-flow: row wrap;
@@ -322,6 +336,7 @@
   justify-content: space-between;
   z-index: 3;
   margin: 0 auto 0 auto;
+  color: white;
 }
 
 
@@ -333,6 +348,7 @@
 
 .table__text_theme_dark {
   margin: 20px 0 0 0;
+  color: white;
 }
 
 
@@ -344,9 +360,11 @@
   display:flex;
   justify-content: center;
   color: white;
+  margin: 0;
+  padding: 0;
 }
 
-.footer__column {
+.footer__columns {
   display:flex;
   width: 90%;
   justify-content: space-between;
@@ -379,9 +397,7 @@
 .footer__author {
   font-size: 18px;
   line-height: 25px;
- 
-  margin-top: 18px;
-  margin-bottom: 18px;
+  margin: 18px 0 18px 0;
 }
 
 
@@ -413,8 +429,6 @@
 }
 
 .footer__social-links {
-  width: 100%;
-  height: 100%;
   display:flex;
   flex-flow: column;
   justify-content: flex-start;
