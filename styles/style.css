@@ -226,7 +226,7 @@
 .feynman {
   min-height: 890px;
   position: relative;
-  display:flex; 
+  display: flex;
   flex-flow: column;
   align-items: center;
   text-align: center;
