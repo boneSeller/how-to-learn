@@ -1,9 +1,15 @@
-@import url(../feynman/feynman.css);
-@import url(../feynman/__title/feynman__title.css);
-@import url(../feynman/__subtitle/feynman__subtitle.css);
-@import url(../feynman/__link/feynman__link.css);
-@import url(../feynman/__illustration.css/feynman__illustration.css);
+@import url(../blocks/feynman/feynman.css);
+@import url(../blocks/feynman/__title/feynman__title.css);
+@import url(../blocks/feynman/__subtitle/feynman__subtitle.css);
+@import url(../blocks/feynman/__link/feynman__link.css);
+@import url(../blocks/feynman/__illustration.css/feynman__illustration.css);
 
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+
+
+@import url(../blocks/oakley/oakley.css);
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -382,7 +388,6 @@
   line-height: 30px;
   font-size: 18px;
   color: white;
-
 }
 
 .footer__social-icon {

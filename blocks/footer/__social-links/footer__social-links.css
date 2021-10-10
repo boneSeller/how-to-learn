@@ -1,0 +1,12 @@
+.footer__social-links {
+    display:flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 20px;
+    margin-bottom: 16px;
+    font-weight: normal;
+    line-height: 30px;
+    font-size: 18px;
+    color: white;
+  }
