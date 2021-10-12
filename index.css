@@ -63,35 +63,24 @@
 @import url(blocks/feynman/__title/feynman__title.css);
 @import url(blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(blocks/feynman/__link/feynman__link.css);
-
-
 @import url(blocks/feynman/__illustration.css/feynman__illustration.css);
-
-
-/*ЦИФРЫ*/ 
+/*ЦИФРЫ*/
 @import url(blocks/digits/digits.css);
-/*таблица*/ 
+/*таблица*/
 @import url(blocks/table/table.css);
 @import url(blocks/table/_theme_dark/table_theme_dark.css);
 @import url(blocks/table/__text/table__text.css);
 @import url(blocks/table/__text/_theme_dark/table__text_theme_dark\ .css);
-
-
-
 @import url(blocks/table/__cell/table__cell.css);
 @import url(blocks/table/__cell/_theme_dark/table__cell_theme_dark.css);
 @import url(blocks/table/__heading/table__heading.css);
 
 /*ХАН*/ 
 @import url(blocks/khan/__title/khan__title.css);
-
 @import url(blocks/khan/__quote/khan__quote.css);
 @import url(blocks/khan/__quote-author/khan__quote-author.css);
 @import url(blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
 @import url(blocks/khan/__container/khan__container.css);
-
-
-
 @import url(blocks/khan/__buy-link/khan__buy-link.css);
 @import url(blocks/khan/__book-pic/khan__book-pic.css);
 @import url(blocks/khan/__book-container/khan__book-container.css);
@@ -106,7 +95,6 @@
 @import url(blocks/resources/resources.css);
 @import url(blocks/resources/__logo/resources__logo.css);
 @import url(blocks/resources/__logo-zone/resources__logo-zone.css);
-
 /*Футер*/
 @import url(blocks/footer/footer.css);
 @import url(blocks/footer/__social-links/footer__social-links.css);
@@ -119,3 +107,5 @@
 @import url(blocks/footer/__column-links/footer__column-links.css);
 @import url(blocks/footer/__column-heading/footer__column-heading.css);
 @import url(blocks/footer/__author/footer__author.css);
+
+/*1*/
