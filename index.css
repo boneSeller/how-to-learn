@@ -64,7 +64,9 @@
 @import url(blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(blocks/feynman/__link/feynman__link.css);
 
+
 @import url(blocks/feynman/__illustration.css/feynman__illustration.css);
+
 
 /*ЦИФРЫ*/ 
 @import url(blocks/digits/digits.css);
@@ -73,6 +75,7 @@
 @import url(blocks/table/_theme_dark/table_theme_dark.css);
 @import url(blocks/table/__text/table__text.css);
 @import url(blocks/table/__text/_theme_dark/table__text_theme_dark\ .css);
+
 
 
 @import url(blocks/table/__cell/table__cell.css);
@@ -86,6 +89,7 @@
 @import url(blocks/khan/__quote-author/khan__quote-author.css);
 @import url(blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
 @import url(blocks/khan/__container/khan__container.css);
+
 
 
 @import url(blocks/khan/__buy-link/khan__buy-link.css);
