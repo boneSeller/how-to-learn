@@ -33,6 +33,7 @@
   color: #000000;
   margin: 0;
   padding: 0;
+  overflow: hidden;
   /* выше установили ограничения для секции */
 }
 
@@ -100,7 +101,6 @@
   position: absolute;
   top: 64px;
   right: 0;
-
 }
 
 
@@ -246,6 +246,7 @@
   background: #1f1f1f;
   overflow: hidden;
   color: white;
+  overflow: hidden;
 }
 
 .section-title_theme_dark {
@@ -410,13 +411,18 @@
   width: 920px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
 }
 
 .cards__items {
   width: 240px;
   text-align: center;
 }
+
+.cards__items:nth-child(3n+2) {
+  margin: 0 100px 0 100px; 
+}
+
+
 
 .cards_image {
   width: 160px;
@@ -438,4 +444,84 @@
   font-size: 18px;
   font-weight: normal;
   margin: 16px 0 0 0;
+}
+
+
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation {
+  animation: rotation 20s linear infinite;
+}
+
+.khan__container {
+  width: 80%;
+  margin: 100px auto 0 auto;
+}
+
+.khan__author {
+ line-height: 42px;
+ font-size: 30px;
+ font-weight: normal;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.khan__quote {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 790px;
+  margin: 50px 0 0 0;
+  padding: 0;
+}
+
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 36px 0 0 0;
+  padding: 0;
+}
+
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 10px 0 0 0;
+  padding: 0;
+}
+
+.khan__book-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0;
+  padding: 60px 0 0 0;
+}
+
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  margin: 0 48px 0 0;
+}
+
+
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+  text-decoration: none;
+  color :#2f80ed;
 }
