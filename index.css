@@ -74,7 +74,6 @@
 @import url(blocks/table/__cell/table__cell.css);
 @import url(blocks/table/__cell/_theme_dark/table__cell_theme_dark.css);
 @import url(blocks/table/__heading/table__heading.css);
-
 /*ХАН*/ 
 @import url(blocks/khan/__title/khan__title.css);
 @import url(blocks/khan/__quote/khan__quote.css);
@@ -85,7 +84,6 @@
 @import url(blocks/khan/__book-pic/khan__book-pic.css);
 @import url(blocks/khan/__book-container/khan__book-container.css);
 @import url(blocks/khan/__author/khan__author.css);
-
 /*КАУФМАН*/  
 @import url(blocks/kaufman/kaufman.css);
 @import url(blocks/kaufman/__triangle/kaufman__triangle.css);
@@ -107,4 +105,4 @@
 @import url(blocks/footer/__column-heading/footer__column-heading.css);
 @import url(blocks/footer/__author/footer__author.css);
 
-/*2*/
+/*3*/
