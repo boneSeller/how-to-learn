@@ -63,13 +63,9 @@
 @import url(blocks/feynman/__title/feynman__title.css);
 @import url(blocks/feynman/__subtitle/feynman__subtitle.css);
 @import url(blocks/feynman/__link/feynman__link.css);
-
 @import url(blocks/feynman/__illustration.css/feynman__illustration.css);
-
 /*ЦИФРЫ*/ 
-
 @import url(blocks/digits/digits.css);
-
 /*таблица*/ 
 @import url(blocks/table/table.css);
 @import url(blocks/table/_theme_dark/table_theme_dark.css);
@@ -82,6 +78,7 @@
 
 /*ХАН*/ 
 @import url(blocks/khan/__title/khan__title.css);
+
 @import url(blocks/khan/__quote/khan__quote.css);
 @import url(blocks/khan/__quote-author/khan__quote-author.css);
 @import url(blocks/khan/__quote-author-subline/khan__quote-author-subline.css);
@@ -93,6 +90,7 @@
 @import url(blocks/khan/__author/khan__author.css);
 
 /*КАУФМАН*/  
+
 @import url(blocks/kaufman/kaufman.css);
 @import url(blocks/kaufman/__triangle/kaufman__triangle.css);
 
