@@ -1,6 +1,14 @@
 .resources__logo {
+    display: flex;
+    justify-content: center;
     width: 270px;
     height: 38px;
     margin: 0;
     padding: 0;
+    transition: 1s linear;
+    object-fit: contain;
+  }
+
+  .resources__logo:hover {
+    opacity: 50%; 
   }
